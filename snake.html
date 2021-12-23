@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+    <h1> HALLO </h1>
     <canvas id="canvas" width="480" height="480"></canvas>
 
     <script>
@@ -57,7 +57,7 @@
             let otherParts = snake.slice(1);
             let duplicatePart = otherParts.find(part => part.x == firstPart.x && part.y == firstPart.y);
 
-            // 1. Schlange l‰uft gegen die Wand
+            // 1. Schlange l√§uft gegen die Wand
             if (snake[0].x < 0 ||
                 snake[0].x > cols - 1 ||
                 snake[0].y < 0 ||
